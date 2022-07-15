@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637933879240933172
-    m_Hash: 3469253808
+      ticks: 637934059705246853
+    m_Hash: 3792315388
   m_LockFileStatus:
     m_FilePath: C:/Users/gonca/OneDrive/Documentos/EyeGaze/eyegaze_goncaloazevedo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637933879241003197
-    m_Hash: 2039406434
+      ticks: 637934059705387007
+    m_Hash: 730460139
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -47,19 +47,19 @@ m_PackageAssets:
         version: 3.2.16
       resolvedDependencies:
       - name: com.unity.xr.management
-        version: 3.2.16
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
+        version: 4.2.1
+      - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.physics
         version: 1.0.0
       - name: com.unity.modules.xr
         version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
       - name: com.unity.subsystemregistration
         version: 1.0.6
       keywords:
@@ -1020,6 +1020,255 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.xr.management@4.2.1
+      testable: 0
+      isDirectDependency: 1
+      version: 4.2.1
+      source: 1
+      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.xr.management@4.2.1
+      assetPath: Packages/com.unity.xr.management
+      name: com.unity.xr.management
+      displayName: XR Plugin Management
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Package that provides simple management of XR plug-ins. Manages
+        and offers help with loading, initialization, settings, and build support
+        for XR plug-ins.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.8
+        - 0.1.0-preview.12
+        - 1.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.0.0-preview.6
+        - 2.0.0-preview.9
+        - 2.0.0-preview.10
+        - 2.0.0-preview.13
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0-preview.24
+        - 2.0.0-preview.25
+        - 2.0.0-preview.26
+        - 3.0.1
+        - 3.0.2-preview.1
+        - 3.0.2-preview.2
+        - 3.0.3
+        - 3.0.4-preview.1
+        - 3.0.4-preview.3
+        - 3.0.4
+        - 3.0.5-preview.1
+        - 3.0.5
+        - 3.0.6-preview.2
+        - 3.0.6
+        - 3.1.0-preview.2
+        - 3.2.4
+        - 3.2.6
+        - 3.2.7
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11-preview.1
+        - 3.2.12
+        - 3.2.13
+        - 3.2.15
+        - 3.2.16
+        - 3.2.17
+        - 4.0.0-exp.2
+        - 4.0.0-pre.2
+        - 4.0.0-pre.3
+        - 4.0.1
+        - 4.0.3
+        - 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        compatible:
+        - 3.2.13
+        - 3.2.15
+        - 3.2.16
+        - 3.2.17
+        - 4.0.0-exp.2
+        - 4.0.0-pre.2
+        - 4.0.0-pre.3
+        - 4.0.1
+        - 4.0.3
+        - 4.0.5
+        - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        - 4.1.0-pre.2
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        verified: 4.0.7
+      dependencies:
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - xr
+      - sdk
+      - ar
+      - vr
+      - management
+      - build
+      - plugin
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637769778170000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+        revision: 9c99228887ff65cc0729434b3b9371d22b707cb9
+        path: 
+    - packageId: com.unity.xr.openxr@1.0.3
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.3
+      source: 1
+      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.xr.openxr@1.0.3
+      assetPath: Packages/com.unity.xr.openxr
+      name: com.unity.xr.openxr
+      displayName: OpenXR Plugin
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: OpenXR is an open, royalty-free standard developed by Khronos
+        that aims to simplify AR/VR development by allowing developers to target
+        a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in
+        Management.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.1-preview.1
+        - 0.1.2-preview.2
+        - 1.0.0-pre.1
+        - 1.0.2
+        - 1.0.3
+        - 1.1.1
+        - 1.2.0
+        - 1.2.2
+        - 1.2.3
+        - 1.2.8
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        compatible:
+        - 0.1.1-preview.1
+        - 0.1.2-preview.2
+        - 1.0.2
+        - 1.0.3
+        - 1.1.1
+        - 1.2.0
+        - 1.2.2
+        - 1.2.3
+        - 1.2.8
+        - 1.3.0
+        - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        verified: 1.0.3
+      dependencies:
+      - name: com.unity.xr.management
+        version: 4.0.1
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.2
+      - name: com.unity.inputsystem
+        version: 1.0.2
+      resolvedDependencies:
+      - name: com.unity.xr.management
+        version: 4.2.1
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      - name: com.unity.inputsystem
+        version: 1.0.2
+      keywords:
+      - openxr
+      - xr
+      - reality
+      - xreditorsubsystem
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637516948170000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+        revision: 82546898438f3e4ef3f1e52e008ca0b93c722c9a
+        path: 
     - packageId: com.valvesoftware.unity.openvr@file:C:\Users\gonca\Downloads\com.valvesoftware.unity.openvr-1.1.4.tgz
       testable: 0
       isDirectDependency: 1
@@ -1052,19 +1301,19 @@ m_PackageAssets:
         version: 2.1.4
       resolvedDependencies:
       - name: com.unity.xr.management
-        version: 3.2.16
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
+        version: 4.2.1
+      - name: com.unity.modules.subsystems
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.vr
         version: 1.0.0
       - name: com.unity.modules.physics
         version: 1.0.0
       - name: com.unity.modules.xr
         version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.7
       - name: com.unity.subsystemregistration
         version: 1.0.6
       - name: com.unity.ugui
@@ -2872,10 +3121,35 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
         - 2.1.7
+        - 2.1.8
+        - 2.1.9
         compatible:
         - 2.1.7
-        verified: 2.1.7
+        - 2.1.8
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -2910,13 +3184,191 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637434003470000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
         revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
+        path: 
+    - packageId: com.unity.inputsystem@1.0.2
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.2
+      source: 1
+      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.inputsystem@1.0.2
+      assetPath: Packages/com.unity.inputsystem
+      name: com.unity.inputsystem
+      displayName: Input System
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A new input system which can be used as a more extensible and
+        customizable alternative to Unity's classic input system in UnityEngine.Input.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.2-preview
+        - 0.2.0-preview
+        - 0.2.1-preview
+        - 0.2.6-preview
+        - 0.2.8-preview
+        - 0.2.10-preview
+        - 0.9.0-preview
+        - 0.9.1-preview
+        - 0.9.2-preview
+        - 0.9.3-preview
+        - 0.9.4-preview
+        - 0.9.5-preview
+        - 0.9.6-preview
+        - 1.0.0-preview
+        - 1.0.0-preview.1
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.0-preview.5
+        - 1.0.0-preview.6
+        - 1.0.0-preview.7
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.1.0-pre.5
+        - 1.1.0-pre.6
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.1.0-preview.3
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
+        - 1.4.1
+        compatible:
+        - 0.1.2-preview
+        - 0.2.0-preview
+        - 0.2.1-preview
+        - 0.2.6-preview
+        - 0.2.8-preview
+        - 0.2.10-preview
+        - 0.9.0-preview
+        - 0.9.1-preview
+        - 0.9.2-preview
+        - 0.9.3-preview
+        - 0.9.4-preview
+        - 0.9.5-preview
+        - 0.9.6-preview
+        - 1.0.0-preview
+        - 1.0.0-preview.1
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.0-preview.5
+        - 1.0.0-preview.6
+        - 1.0.0-preview.7
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.1.0-pre.5
+        - 1.1.0-pre.6
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.1.0-preview.3
+        - 1.1.1
+        - 1.2.0
+        - 1.3.0
+        - 1.4.1
+        verified: 1.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - input
+      - events
+      - keyboard
+      - mouse
+      - gamepad
+      - touch
+      - vr
+      - xr
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637468486210000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/InputSystem.git
+        revision: 041def76515febb36a83d1f928cfb7aefb85176c
+        path: 
+    - packageId: com.unity.subsystemregistration@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.subsystemregistration@1.0.6
+      assetPath: Packages/com.unity.subsystemregistration
+      name: com.unity.subsystemregistration
+      displayName: Subsystem Registration
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides internal registration mechanism for standalone subsystems. 
+        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.4
+        - 1.0.4
+        - 1.0.5
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        compatible:
+        - 1.0.6
+        - 1.1.0
+        - 1.1.1
+        verified: 1.1.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - subsystem
+      - registration
+      - internal
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637056434700000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
+        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
         path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
@@ -2982,197 +3434,6 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
-        path: 
-    - packageId: com.unity.xr.management@3.2.16
-      testable: 0
-      isDirectDependency: 0
-      version: 3.2.16
-      source: 1
-      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.xr.management@3.2.16
-      assetPath: Packages/com.unity.xr.management
-      name: com.unity.xr.management
-      displayName: XR Plugin Management
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Package to provide for simple management of XR plug-ins. Provides
-        help and management for loading, initialization, settings, and build support
-        for XR plug-ins.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.0-preview.8
-        - 0.1.0-preview.12
-        - 1.0.0-preview.2
-        - 2.0.0-preview.3
-        - 2.0.0-preview.6
-        - 2.0.0-preview.9
-        - 2.0.0-preview.10
-        - 2.0.0-preview.13
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.0.0-preview.24
-        - 2.0.0-preview.25
-        - 2.0.0-preview.26
-        - 3.0.1
-        - 3.0.2-preview.1
-        - 3.0.2-preview.2
-        - 3.0.3
-        - 3.0.4-preview.1
-        - 3.0.4-preview.3
-        - 3.0.4
-        - 3.0.5-preview.1
-        - 3.0.5
-        - 3.0.6-preview.2
-        - 3.0.6
-        - 3.1.0-preview.2
-        - 3.2.4
-        - 3.2.6
-        - 3.2.7
-        - 3.2.9
-        - 3.2.10
-        - 3.2.11-preview.1
-        - 3.2.12
-        - 3.2.13
-        - 3.2.15
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
-        - 4.0.1
-        - 4.0.3
-        - 4.0.5
-        - 4.0.6
-        - 4.0.7
-        - 4.1.0-pre.1
-        - 4.1.0-pre.2
-        - 4.1.0
-        - 4.2.0
-        - 4.2.1
-        compatible:
-        - 3.2.13
-        - 3.2.15
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
-        - 4.0.1
-        - 4.0.3
-        - 4.0.5
-        - 4.0.6
-        - 4.0.7
-        - 4.1.0-pre.1
-        - 4.1.0-pre.2
-        - 4.1.0
-        - 4.2.0
-        - 4.2.1
-        verified: 4.0.7
-      dependencies:
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.2
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
-      resolvedDependencies:
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
-      keywords:
-      - xr
-      - sdk
-      - ar
-      - vr
-      - management
-      - build
-      - plugin
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637377029510000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-        revision: a502c5ffdef34dcbae312ceb5ab87af156125187
-        path: 
-    - packageId: com.unity.subsystemregistration@1.0.6
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.6
-      source: 1
-      resolvedPath: C:\Users\gonca\OneDrive\Documentos\EyeGaze\eyegaze_goncaloazevedo\Library\PackageCache\com.unity.subsystemregistration@1.0.6
-      assetPath: Packages/com.unity.subsystemregistration
-      name: com.unity.subsystemregistration
-      displayName: Subsystem Registration
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides internal registration mechanism for standalone subsystems. 
-        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.6
-        - 1.1.0
-        compatible:
-        - 1.0.6
-        - 1.1.0
-        verified: 1.1.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - subsystem
-      - registration
-      - internal
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
-        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
