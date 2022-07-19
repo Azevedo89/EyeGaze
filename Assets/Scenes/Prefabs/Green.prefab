@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7555983424523345221}
   - component: {fileID: 7555983424523345220}
   - component: {fileID: 7555983424523345223}
+  - component: {fileID: 8411918960232756944}
   m_Layer: 0
   m_Name: Green
   m_TagString: Green
@@ -110,3 +111,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 0}
+--- !u!114 &8411918960232756944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7555983424523345242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SphereRend: {fileID: 0}
+  target: {fileID: 0}
+  t: 0.1
+  speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}

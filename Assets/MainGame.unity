@@ -2036,6 +2036,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SphereRend: {fileID: 1965363900}
+  target: {fileID: 0}
+  t: 0.1
+  speed: 0.1
 --- !u!1 &2072082397
 GameObject:
   m_ObjectHideFlags: 0
