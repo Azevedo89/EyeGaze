@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/Tobii XR SDK/3.0.1/Getting Started/Example_GettingStarted.unity
-    guid: 221a337531f80eb4eb510b1cd2874c53
+    path: Assets/MainGame.unity
+    guid: 7e78874becd60417c8152a9aeacd1b2a
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 37a14f0a3e2824e42a879588baf94a78, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: fb625691d833b4f4c9847c16fef7f4ec, type: 2}
