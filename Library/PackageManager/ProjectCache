@@ -5,27 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637934059705246853
-    m_Hash: 3792315388
+      ticks: 637939261305578774
+    m_Hash: 3101355512
   m_LockFileStatus:
     m_FilePath: C:/Users/gonca/OneDrive/Documentos/EyeGaze/eyegaze_goncaloazevedo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637934059705387007
-    m_Hash: 730460139
+      ticks: 637939261305708781
+    m_Hash: 3538890788
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.tobii.xr.sdk@file:C:\Users\gonca\Downloads\TobiiXRSDK_3.0.1.179
+    - packageId: com.tobii.xr.sdk@file:C:\Users\gonca\OneDrive\Ambiente de Trabalho\TobiiXRSDK_3.0.1.179
+        (1)
       testable: 0
       isDirectDependency: 1
       version: 3.0.1
       source: 4
-      resolvedPath: C:\Users\gonca\Downloads\TobiiXRSDK_3.0.1.179
+      resolvedPath: C:\Users\gonca\OneDrive\Ambiente de Trabalho\TobiiXRSDK_3.0.1.179
+        (1)
       assetPath: Packages/com.tobii.xr.sdk
       name: com.tobii.xr.sdk
       displayName: Tobii XR SDK
@@ -156,6 +158,7 @@ m_PackageAssets:
         - 1.15.18
         - 1.17.0
         - 1.17.1
+        - 1.17.2
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -568,6 +571,7 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 1.1.33
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -578,10 +582,11 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 1.1.33
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
-        verified: 1.1.31
+        verified: 1.1.33
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -3437,14 +3442,16 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: C:\Users\gonca\Downloads\TobiiXRSDK_3.0.1.179/package.json
+    - m_FilePath: C:\Users\gonca\OneDrive\Ambiente de Trabalho\TobiiXRSDK_3.0.1.179
+        (1)/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637933879080594600
+        ticks: 637939260006449430
       m_Hash: 376237327
-    - m_FilePath: C:\Users\gonca\Downloads\TobiiXRSDK_3.0.1.179
+    - m_FilePath: C:\Users\gonca\OneDrive\Ambiente de Trabalho\TobiiXRSDK_3.0.1.179
+        (1)
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:

@@ -123,6 +123,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &43778919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2201651854324454570, guid: 4ea2892c67347484fb4cf26254989df5, type: 3}
+  m_PrefabInstance: {fileID: 799066186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &43778923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43778919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SphereRend: {fileID: 1965363900}
+  target: {fileID: 1965363902}
+  t: 0.1
+  speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}
 --- !u!1 &216188587
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +907,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 901129620767501760, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
   m_PrefabInstance: {fileID: 933307611}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1771456659}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da65ba88caaa442c8bcca8cca687ed0, type: 3}
@@ -1033,7 +1056,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1026648425846011857, guid: 4bd2ac566246e4cfa9d7b68ea7913c5f, type: 3}
   m_PrefabInstance: {fileID: 1089879848}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1817128047}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da65ba88caaa442c8bcca8cca687ed0, type: 3}
@@ -1124,6 +1147,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6650941307552522257, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1965363902}
+    - target: {fileID: 6650941307552522257, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
+      propertyPath: SphereRend
+      value: 
+      objectReference: {fileID: 1771456661}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
 --- !u!1 &1080053293
@@ -1286,7 +1317,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2201651854324454561, guid: 4ea2892c67347484fb4cf26254989df5, type: 3}
   m_PrefabInstance: {fileID: 799066186}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 43778919}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da65ba88caaa442c8bcca8cca687ed0, type: 3}
@@ -1302,7 +1333,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7555983424523345223, guid: addb18fcf77b04d4b913030a92134cc7, type: 3}
   m_PrefabInstance: {fileID: 2144382726}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1281221252}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3da65ba88caaa442c8bcca8cca687ed0, type: 3}
@@ -1425,6 +1456,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4d9fadcc9db94dd6901215920404bc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1281221252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7555983424523345242, guid: addb18fcf77b04d4b913030a92134cc7, type: 3}
+  m_PrefabInstance: {fileID: 2144382726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1281221254 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7555983424523345221, guid: addb18fcf77b04d4b913030a92134cc7, type: 3}
+  m_PrefabInstance: {fileID: 2144382726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1281221256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281221252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SphereRend: {fileID: 1281221254}
+  target: {fileID: 1965363902}
+  t: 0.1
+  speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}
 --- !u!1 &1292146727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,6 +1856,57 @@ Transform:
   m_Father: {fileID: 1206143354}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771456659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 901129620767501787, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
+  m_PrefabInstance: {fileID: 933307611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1771456661 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 901129620767501790, guid: bb8461b9fe84240f89427dd6f14bbef9, type: 3}
+  m_PrefabInstance: {fileID: 933307611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1771456663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771456659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SphereRend: {fileID: 1771456661}
+  target: {fileID: 1965363902}
+  t: 0.1
+  speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}
+--- !u!1 &1817128047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1026648425846011860, guid: 4bd2ac566246e4cfa9d7b68ea7913c5f, type: 3}
+  m_PrefabInstance: {fileID: 1089879848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1817128051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817128047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SphereRend: {fileID: 1965363900}
+  target: {fileID: 1965363902}
+  t: 0.1
+  speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}
 --- !u!1 &1860022483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,7 +2023,7 @@ GameObject:
   - component: {fileID: 1965363905}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2030,15 +2140,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965363898}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf4e9545679e2454f8187a9371849e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SphereRend: {fileID: 1965363900}
-  target: {fileID: 0}
+  target: {fileID: 860886157}
   t: 0.1
   speed: 0.1
+  Eye: 0
+  respawn: {fileID: 0}
 --- !u!1 &2072082397
 GameObject:
   m_ObjectHideFlags: 0
