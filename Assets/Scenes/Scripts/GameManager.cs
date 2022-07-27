@@ -15,17 +15,26 @@ public class GameManager : MonoBehaviour
    public ListShuffle textShuffle;
    public ListShuffle prefabShuffle;
    public GameObject Sphere;
-   
+    public MoveUiGaze Canvas;
+
     void Start()
     {
         textShuffle = new ListShuffle();
         prefabShuffle = new ListShuffle();
         textShuffle.ShuffleList<string>(NamesGeneratedBySystem);
+        
     }
     
     void Update()
     {
-        GameOver();  
+        GameOver();
+
+        if (Canvas.CanMove)
+        {
+            InstantiatePrefabs();
+            Canvas.CanMove = false;
+        }
+
     }
 
     public void GameOver()

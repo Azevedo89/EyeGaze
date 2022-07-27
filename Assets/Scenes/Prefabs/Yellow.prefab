@@ -128,3 +128,4 @@ MonoBehaviour:
   t: 0.1
   speed: 0.1
   Eye: 0
+  respawn: {fileID: 0}

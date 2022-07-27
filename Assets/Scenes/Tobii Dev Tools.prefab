@@ -785,7 +785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &345333429329503902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!1 &563581499711140958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,7 +2786,7 @@ MonoBehaviour:
   _offset: {x: 0, y: -82, z: 0.0010700005}
   _padding: {x: 236.1, y: 113.2, z: 11.839}
   _adjustToDepth: 1
-  _center: {x: 0, y: -82, z: 0.00082000054}
+  _center: {x: 0, y: -82, z: 0.0010800004}
   _size: {x: 1136.1, y: 133.2, z: 11.84}
   _collider: {fileID: 518070578153501414}
   _rectTransform: {fileID: 345498923454894504}
@@ -2803,7 +2803,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1136.1, y: 133.2, z: 11.84}
-  m_Center: {x: 0, y: -82, z: 0.00082000054}
+  m_Center: {x: 0, y: -82, z: 0.0010800004}
 --- !u!114 &450920717360286326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,7 +2986,7 @@ MonoBehaviour:
   _offset: {x: 0, y: 0, z: 0}
   _padding: {x: 0, y: 0, z: 0}
   _adjustToDepth: 1
-  _center: {x: 0, y: 0, z: -0.00022999995}
+  _center: {x: 0, y: 0, z: 0.000009999998}
   _size: {x: 80, y: 80, z: 0.0009999998}
   _collider: {fileID: 517926103156205860}
   _rectTransform: {fileID: 344568971103056842}
@@ -3003,7 +3003,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 80, y: 80, z: 0.0009999998}
-  m_Center: {x: 0, y: 0, z: -0.00022999995}
+  m_Center: {x: 0, y: 0, z: 0.000009999998}
 --- !u!114 &450922699323126254
 MonoBehaviour:
   m_ObjectHideFlags: 0
